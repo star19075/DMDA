@@ -1,0 +1,7 @@
+x <- seq(0, 50, by = 1) 
+y <- dbinom(x,50,0.5) 
+
+png(file = "dbinom.png") 
+plot(x, y)
+     
+dev.off()
