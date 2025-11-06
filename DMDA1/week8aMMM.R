@@ -22,3 +22,4 @@ print(result)
 charv <- c("o","it","the","it","it")  
 result <- getmode(charv)  
 print(result) 
+
