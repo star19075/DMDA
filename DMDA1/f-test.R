@@ -1,0 +1,5 @@
+x<-c(12,15,14,10,13,15)
+y<-c(14,18,13,16,17,19)
+f_test_result<-var.test(x,y)
+print(f_test_result)
+boxplot(x,y,name=c("Group X","Group Y"),main="F-Test:Variance Comaprison",col=c("skyblue","lightgreen"))

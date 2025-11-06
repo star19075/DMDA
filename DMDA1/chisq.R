@@ -1,0 +1,7 @@
+library("MASS")
+print(str(Cars93))
+car_data<-data.frame(Cars93$AirBags,Cars93$Type)
+car_data=table(Car93$AirBags,CarsType)
+print(car_data)
+smoothScatter(car_data)
+print(chisq.test(car_data) 

@@ -1,0 +1,5 @@
+x<-c(12,15,14,10,13,15)
+y<-c(14,18,13,16,17,19)
+t_test_result<-t.test(x,y)
+print(t_test_result)
+boxplot(x,y,name=c("Group X","Group Y"),main="T-Test Comprasion",col=c("skyblue","lightgreen"))
